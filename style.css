@@ -24,7 +24,7 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 900px;
+  width: 1216px;
   margin: 0 auto;
   height: 100%;
 }
@@ -49,7 +49,8 @@ header {
   height: 65px;
   outline: none;
   border: none;
-  padding-left: 70px;
+  padding-left: 80px;
+  padding-right: 70px;
   color: #AFABB6;
   font-size: 24px;
 }
@@ -74,6 +75,7 @@ header {
   background-image: url(./img/Vector.svg);
   background-repeat: no-repeat;
   background-size: cover;
+  cursor: pointer;
 }
 
 main {
