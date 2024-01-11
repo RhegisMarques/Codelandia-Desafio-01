@@ -1,5 +1,7 @@
-const icon = document.querySelector("#icon");
+const icons = Array.from(document.querySelectorAll(".hears"));
 
-icon.onclick = () => {
-  icon.classList.toggle("filled");
-};
+icons.forEach((icon) =>
+  icon.addEventListener("click", function () {
+    this.classList.toggle("filled");
+  })
+);
